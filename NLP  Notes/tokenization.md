@@ -27,6 +27,9 @@ Tokenization is usually the **first step in NLP**, as most models work on tokens
 ### 1. **Word Tokenization**
 Splits a sentence into words.
 
+![Alt text for accessibility](images/image.png)
+
+
 ```python
 import spacy
 nlp = spacy.load("en_core_web_sm")
@@ -103,6 +106,8 @@ Example (conceptual):
 text = "NLP"
 tokens = list(text)
 print(tokens)
+
+
 
 
 Output:
