@@ -47,7 +47,10 @@ urls = re.findall(r'https?://\S+', text)
 
 print("Emails:", emails)
 print("URLs:", urls)
+```
 
 
 ![](images/3.png)
 ![](images/4.png)
+
+
