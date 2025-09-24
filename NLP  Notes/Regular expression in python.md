@@ -66,6 +66,8 @@ pattern = r"\d{10}"
 match = re.search(pattern, text)
 if match:
     print("Phone number found:", match.group())
+```
+![image](images/1.png)
 
 
 
