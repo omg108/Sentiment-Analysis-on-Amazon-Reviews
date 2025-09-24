@@ -47,8 +47,9 @@ This helps the support team focus on the most critical problems first.
 - **Sentence Tokenization:** Split text into sentences.  
 - **Why:** Makes it easier to process text mathematically.  
 
-![](images/Screenshot_2025-09-24_102500.png)  
 ![](images/Screenshot_2025-09-24_102610.png)  
+![](images/Screenshot_2025-09-24_102718.png)  
+
 ---
 
 ## 4. **Text Normalization**
@@ -56,7 +57,6 @@ This helps the support team focus on the most critical problems first.
 - **Lemmatization:** Use linguistic rules → "better" → "good"  
 - **Goal:** Treat different forms of a word as the same feature.  
 
-![](images/Screenshot_2025-09-24_102718.png)  
 ---
 
 ## 5. **Feature Extraction / Representation**
