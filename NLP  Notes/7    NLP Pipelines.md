@@ -47,7 +47,7 @@ This helps the support team focus on the most critical problems first.
 - **Sentence Tokenization:** Split text into sentences.  
 - **Why:** Makes it easier to process text mathematically.  
 
-![](images/Screenshot 2025-09-24 102500.png)  
+![](images/Screenshot_2025-09-24_102500.png)  
 ![](images/Screenshot 2025-09-24 102610.png)  
 ---
 
