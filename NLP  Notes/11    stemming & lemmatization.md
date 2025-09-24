@@ -20,8 +20,8 @@
 - **spaCy** = only lemmatization, **NLTK** = both.
 
 
-![](images/Screenshot_2025-09-24_194823)
-![](images/Screenshot_2025-09-24_194914)
+![](images/Screenshot_2025-09-24_194823.png)
+![](images/Screenshot_2025-09-24_194914.png)
 
 
 ---
