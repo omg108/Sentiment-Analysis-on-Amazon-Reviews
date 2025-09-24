@@ -28,7 +28,7 @@ This helps the support team focus on the most critical problems first.
 - **Sources:** Social media (tweets, reviews), websites, chat logs, documents, datasets.  
 - **Goal:** Get enough representative data for training and analysis.  
 
-![](images/Screenshot 2025-09-24 104720.png)
+![](images/Screenshot_2025-09-24_104720.png)
 ![](images/Screenshot 2025-09-24 101942.png)  
 
 
