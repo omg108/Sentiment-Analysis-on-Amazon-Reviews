@@ -89,7 +89,7 @@ Convert text into **numeric format** so ML/DL models can process it:
 - **Goal:** Make the model available for real-world use.
 - **Ways:** REST API, Web app, Chatbot, Integration in product pipeline.
 ![](images/Screenshot_2025-09-24_103534.png)  
-![](images/Screenshot_2025-09-24_104720.png)
+
 
 ---
 
