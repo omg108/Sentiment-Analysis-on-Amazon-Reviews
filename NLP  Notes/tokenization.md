@@ -27,7 +27,7 @@ Tokenization is usually the **first step in NLP**, as most models work on tokens
 ### 1. **Word Tokenization**
 Splits a sentence into words.
 
-![Alt text for accessibility](images/image.png)
+![Alt text for accessibility](images/1.png)
 
 
 ```python
