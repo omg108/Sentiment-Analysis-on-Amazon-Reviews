@@ -29,7 +29,7 @@ This helps the support team focus on the most critical problems first.
 - **Goal:** Get enough representative data for training and analysis.  
 
 ![](images/Screenshot_2025-09-24_104720.png)
-![](images/Screenshot 2025-09-24 101942.png)  
+![](images/Screenshot_2025-09-24_101942.png)  
 
 
 ---
@@ -39,7 +39,7 @@ This helps the support team focus on the most critical problems first.
 - **Remove noise:** Punctuation, numbers, special characters.  
 - **Stopword removal:** Remove words like "the", "is", "and" that add little meaning.  
 - **Handling missing values:** Remove empty rows or fill missing text.  
-![](images/Screenshot 2025-09-24 102819.png)  
+![](images/Screenshot_2025-09-24_102819.png)  
 ---
 
 ## 3. **Tokenization**
@@ -48,7 +48,7 @@ This helps the support team focus on the most critical problems first.
 - **Why:** Makes it easier to process text mathematically.  
 
 ![](images/Screenshot_2025-09-24_102500.png)  
-![](images/Screenshot 2025-09-24 102610.png)  
+![](images/Screenshot_2025-09-24_102610.png)  
 ---
 
 ## 4. **Text Normalization**
@@ -56,7 +56,7 @@ This helps the support team focus on the most critical problems first.
 - **Lemmatization:** Use linguistic rules → "better" → "good"  
 - **Goal:** Treat different forms of a word as the same feature.  
 
-![](images/Screenshot 2025-09-24 102718.png)  
+![](images/Screenshot_2025-09-24_102718.png)  
 ---
 
 ## 5. **Feature Extraction / Representation**
@@ -65,8 +65,8 @@ Convert text into **numeric format** so ML/DL models can process it:
 - **TF-IDF:** Weighted word importance.
 - **Word Embeddings:** Dense vector representation (Word2Vec, GloVe).
 - **Contextual Embeddings:** Use Transformers (BERT, GPT) for better meaning capture.
-![](images/Screenshot 2025-09-24 103032.png)  
-![](images/Screenshot 2025-09-24 103057.png)  
+![](images/Screenshot_2025-09-24_103032.png)  
+![](images/Screenshot_2025-09-24_103057.png)  
 
 ---
 
@@ -74,22 +74,22 @@ Convert text into **numeric format** so ML/DL models can process it:
 - **Classical ML Models:** Naive Bayes, Logistic Regression, SVM, Random Forest.
 - **Deep Learning Models:** RNN, LSTM, GRU, Transformers.
 - **Task Examples:** Sentiment analysis, classification, summarization, translation.
-![](images/Screenshot 2025-09-24 103207.png)  
+![](images/Screenshot_2025-09-24_103207.png)  
 
 ---
 
 ## 7. **Model Evaluation**
 - **Metrics:** Accuracy, Precision, Recall, F1-score, ROC-AUC.
 - **Validation:** Cross-validation, train-test split.
-![](images/Screenshot 2025-09-24 103302.png)  
+![](images/Screenshot_2025-09-24_103302.png)  
 
 ---
 
 ## 8. **Deployment**
 - **Goal:** Make the model available for real-world use.
 - **Ways:** REST API, Web app, Chatbot, Integration in product pipeline.
-![](images/Screenshot 2025-09-24 103534.png)  
-![](images/Screenshot 2025-09-24 104720.png)
+![](images/Screenshot_2025-09-24_103534.png)  
+![](images/Screenshot_2025-09-24_104720.png)
 
 ---
 
@@ -105,4 +105,3 @@ Convert text into **numeric format** so ML/DL models can process it:
 | Model Building     | ML/DL models (scikit-learn, TensorFlow, PyTorch) |
 | Evaluation         | Accuracy, F1-score, confusion matrix |
 | Deployment         | Flask, FastAPI, Streamlit, Docker |
-
