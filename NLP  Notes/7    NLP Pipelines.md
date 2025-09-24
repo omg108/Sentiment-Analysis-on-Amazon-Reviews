@@ -48,7 +48,6 @@ This helps the support team focus on the most critical problems first.
 - **Why:** Makes it easier to process text mathematically.  
 
 ![](images/Screenshot_2025-09-24_102610.png)  
-![](images/Screenshot_2025-09-24_102718.png)  
 
 ---
 
@@ -56,6 +55,7 @@ This helps the support team focus on the most critical problems first.
 - **Stemming:** Roughly cut words to root form → "running", "runs" → "run"  
 - **Lemmatization:** Use linguistic rules → "better" → "good"  
 - **Goal:** Treat different forms of a word as the same feature.  
+![](images/Screenshot_2025-09-24_102718.png)  
 
 ---
 
