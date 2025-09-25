@@ -47,5 +47,10 @@ Let's take same example of finding company name from news article
 
 
 But in reality there is a lot noise as shown.
-<img width="392" height="68" alt="image" src="https://github.com/user-attachments/assets/ccf33552-981f-4f08-969d-dcb0cd173eaa" />
+![](images/Screenshot_2025-09-25_210214.png)
+
+![](images/Screenshot_2025-09-25_210247.png)
+![](images/Screenshot_2025-09-25_210417.png)
+![](images/Screenshot_2025-09-25_210558.png)
+![](images/Screenshot_2025-09-25_210619.png)
 
