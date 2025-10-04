@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Review Sentiment</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Product Review Sentiment</h1>
+      <p class="subtitle">Choose a model, enter a single review or upload a CSV.</p>
+    </header>
+
+```
+<main>
+  <section class="card">
+    <h2>Quick Predict</h2>
+    <form method="POST" id="text-form" novalidate>
+      <label for="model">Select Model</label>
+      <select id="model" name="model">
+        <option value="distilbert" {% if selected_model == "distilbert" %}selected{% endif %}>DistilBERT (Fine-tuned)</option>
+        <option value="multinb" {% if selected_model == "multinb" %}selected{% endif %}>CountVectorizer + MultinomialNB</option>
+        <option value="basic" {% if selected_model == "basic" %}selected{% endif %}>Basic Alexa Review Model</option>
+      </select>
+
+      <label for="review">Enter review</label>
+      <textarea id="review" name="review" rows="4" placeholder="Type a product review...">{{ request.form.get('review', '') }}</textarea>
+      <button class="btn" type="submit">Predict Sentiment</button>
+    </form>
+
+    <div class="result" aria-live="polite">
+      {% if result %}
+        <strong>Result:</strong>
+        <div class="pill {{ result|lower }}">{{ result }}</div>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Bulk CSV</h2>
+    <form method="POST" enctype="multipart/form-data" id="csv-form">
+      <label for="model">Select Model</label>
+      <select id="model" name="model">
+        <option value="distilbert" {% if selected_model == "distilbert" %}selected{% endif %}>DistilBERT (Fine-tuned)</option>
+        <option value="multinb" {% if selected_model == "multinb" %}selected{% endif %}>CountVectorizer + MultinomialNB</option>
+        <option value="basic" {% if selected_model == "basic" %}selected{% endif %}>Basic Alexa Review Model</option>
+      </select>
+
+      <label for="file">Upload CSV (must contain <code>review</code> column)</label>
+      <input type="file" id="file" name="file" accept=".csv">
+      <div class="hint">After processing the server will save <code>predicted.csv</code> in the uploads/ folder.</div>
+      <button class="btn" type="submit">Upload & Predict</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <small>Built with ❤️ — Model comparison made simple</small>
+</footer>
+```
+
+  </div>
+</body>
+</html>
