@@ -78,7 +78,7 @@ The project includes both exploratory data analysis (EDA) and model deployment v
 - Amazon Reviews Dataset
 - HuggingFace Transformers
 - Scikit-learn Documentation
-- Streamlit Documentation
+- Flask Documentation
 
 ## Acknowledgement
 - HuggingFace community for pre-trained models
