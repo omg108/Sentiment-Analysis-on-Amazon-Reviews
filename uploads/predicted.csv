@@ -1,0 +1,21 @@
+review,sentiment,Pred_sentiment
+This blender works perfectly and makes smoothies in seconds. Highly recommend!,pos,Negative
+The package arrived on time but the product looked different than expected.,neu,Neutral
+Absolutely terrible headphones. Stopped working after one week!,neg,Negative
+I love this coffee maker! Easy to use and brews quickly.,pos,Positive
+"The product is okay, nothing special. Meets basic expectations.",neu,Neutral
+Waste of money. The charger overheats and is unsafe.,neg,Negative
+"Fantastic book! Could not put it down, very engaging story.",pos,Negative
+The size and color are as described. Satisfactory performance.,neu,Negative
+Broke on the first day. Very disappointed with this purchase.,neg,Positive
+Excellent quality and fast shipping. Will buy again!,pos,Neutral
+"Great phone case, fits perfectly and protects well.",pos,Positive
+Delivery was late but product is fine.,neu,Neutral
+"Cheap material, feels very fragile.",neg,Negative
+"Amazing sound quality, really impressed!",pos,Neutral
+"Average product, does the job.",neu,Neutral
+"Stopped working after a month, very poor quality.",neg,Neutral
+"Very comfortable shoes, perfect for daily use.",pos,Positive
+"Package missing some items, customer service was slow.",neu,Negative
+"Terrible experience, product was defective.",neg,Negative
+Exceeded expectations! Highly satisfied with the purchase.,pos,Positive
